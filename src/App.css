@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button-white {
+  background-color: white; /* Начальный цвет фона */
+  color: black; /* Начальный цвет текста */
+  border: 2px solid black; /* Граница черного цвета */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  font-weight: bold; /* Толщина шрифта */
+  cursor: pointer; /* Указатель курсора */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход */
+}
+
+.button-white:hover {
+  background-color: black; /* Цвет фона при наведении */
+  color: white; /* Цвет текста при наведении */
+  border: 2px white solid;
+}
+
+.button-black {
+  background-color: black; /* Начальный цвет фона */
+  color: white; /* Начальный цвет текста */
+  border: 2px solid white; /* Граница черного цвета */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  font-weight: bold; /* Толщина шрифта */
+  cursor: pointer; /* Указатель курсора */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход */
+}
+
+.button-black:hover {
+  background-color: white; /* Цвет фона при наведении */
+  color: black; /* Цвет текста при наведении */
+  border: 2px black solid;
+}
+
+.home {
+  background-image: url("../public/home.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  filter: grayscale(100%);
+}
+
+
+.profile {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.profile-background {
+  background-image: url("../public/home.gif");
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

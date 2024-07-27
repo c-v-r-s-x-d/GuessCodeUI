@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" width="400" height="400" data-date-format="longDate">
+  <style>
+</style>
+  <svg viewBox="0 0 100 40.3" width="335" height="135" x="42" y="128">
+	<polygon fill="#0035a1" points="86.4,19.5 99.4,19.4 91.4,28.9 96.5,39.4 79.4,39.8 84.7,31.6"/>
+  <polygon fill="#001e52" points="80.2,31.5 84.8,31.5 79.4,39.8"/>
+  <polygon fill="#0035a1" points="2.8,0.6 16.5,1 12.3,7.1 10.9,17.3 0.7,17.2 7.3,8.9"/>
+  <polygon fill="#001e52" points="16.5,1 12.2,7.2 15.6,7.2"/>
+  <polygon fill="#0054a7" points="12.3,7.2 88.2,7.3 84.8,31.5 8.8,31.9"/>
+</svg>
+  <foreignObject width="393" height="64" style="font-size: 33px;color: rgb(255, 255, 255);font-family: monospace;font-weight: 400;text-align: center;letter-spacing: -0.02em;line-height: 1.65;" x="3" y="164" opacity="1">
+    <div xmlns="http://www.w3.org/1999/xhtml">2 Kyu</div>
+  </foreignObject>
+</svg>

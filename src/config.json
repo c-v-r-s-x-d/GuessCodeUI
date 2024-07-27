@@ -1,0 +1,5 @@
+{
+  "api": "http://192.168.0.35:5000",
+  "activity_hub": "/status-hub",
+  "github_auth": "https://github.com/login/oauth/authorize?client_id=Ov23liNzfvaQ7TNbtog1&redirect_uri=http://localhost:3000/auth/callback"
+}
