@@ -4,7 +4,20 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
-FROM nginx:stable-alpine
-COPY --from=build /app/build /usr/share/nginx/html
+
+# Используем Node.js для запуска сервера через serve
+FROM node:18
+
+WORKDIR /app
+
+# Копируем билдированные файлы из предыдущего этапа
+COPY --from=build /app/build /app/build
+
+# Устанавливаем пакет serve для сервировки статических файлов
+RUN npm install -g serve
+
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+
+# Запускаем сервер с использованием serve
+CMD ["serve", "-s", "build", "-l", "80"]
+
