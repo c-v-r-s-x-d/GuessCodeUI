@@ -3,7 +3,6 @@ version: '3'
 services:
   guess-code-ui:
     build:
-      context: ./src/GuessCodeUI
       dockerfile: Dockerfile
     image: guess-code-ui
     container_name: guess-code-ui
